@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Omnicalc</title>
+  <title>Desc Stat Results</title>
 
   <!-- Connect to Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -17,13 +17,168 @@
 
   <!-- Connect to Bootstrap Javascript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
+  <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.5/cerulean/bootstrap.css">
   <!-- These meta tags make Bootstrap responsive and more accessible -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <i class="fa fa-calculator"></i>
+          Omnicalc
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav visible-xs visible-sm">
+          <li>
+            <a href="../word_count/new.html">
+              <i class="fa fa-book"></i>
+              <span>Word Count</span>
+            </a>
+          </li>
+          <li>
+            <a href="../loan_payment/new.html">
+              <i class="fa fa-money"></i>
+              <span>Loan Payment</span>
+            </a>
+          </li>
+          <li>
+            <a href="../time_between/new.html">
+              <i class="fa fa-clock-o"></i>
+              <span>Time Between</span>
+            </a>
+          </li>
+          <li>  <!-- class="active" -->
+            <a href="../descriptive_statistics/new.html">
+              <i class="fa fa-bar-chart"></i>
+              <span>Descriptive Statistics</span>
+            </a>
+          </li>
+
+        <!-- <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      -->      </ul>
+      <!-- <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul> -->
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 hidden-xs hidden-sm"> <!-- "hidden-xs hidden-sm" -->
+      <div class"list-group">
+        <a href="../word_count/new.html" class="list-group-item">
+          <i class="fa fa-book"></i>
+          Word count
+        </a>
+        <a href="../loan_payment/new.html" class="list-group-item">
+          <i class="fa fa-money"></i>
+          Loan Payment
+        </a>
+        <a href="../time_between/new.html" class="list-group-item">
+          <i class="fa fa-clock-o"></i>
+          Time Between
+        </a>
+        <a href="../descriptive_statistics/new.html" class="list-group-item">
+          <i class="fa fa-bar-chart"></i>
+          Descriptive Statistics
+        </a>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">New Descriptive Statistics Result</h3>
+        </div>
+        <div class="panel-body">
+            <dl class="dl-horizontal">
+              <dt>Numbers</dt>
+              <dd></dd>
+
+              <dt>Sorted Numbers</dt>
+              <dd></dd>
+
+              <dt>Count</dt>
+              <dd></dd>
+
+              <dt>Minimum</dt>
+              <dd></dd>
+
+              <dt>Maximum</dt>
+              <dd></dd>
+
+              <dt>Range</dt>
+              <dd></dd>
+
+              <dt>Median</dt>
+              <dd></dd>
+
+              <dt>Sum</dt>
+              <dd></dd>
+
+              <dt>Mean</dt>
+              <dd></dd>
+
+              <dt>Variance</dt>
+              <dd></dd>
+
+              <dt>Standard Deviation</dt>
+              <dd></dd>
+
+              <dt>Mode</dt>
+              <dd></dd>
+            </dl>        
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 </body>
 </html>

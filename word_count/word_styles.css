@@ -1,0 +1,23 @@
+/*.dl-horizontal{
+	white-space:normal;
+}
+
+dt{
+	white-space:normal;
+}
+dl{
+	white-space:normal;
+}
+.dl-horizontal{
+	white-space: normal;
+}
+
+.horizontal_dt {
+  white-space: normal;
+}*/
+.dl-horizontal dt{
+ 	white-space:normal;
+ }
+/**{
+	border: 1px green solid;
+}*/
